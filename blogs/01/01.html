@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, scalable=no, initial-scale=1.0">
+    <title>Multivariable Calculus - Thangla's Webpage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="01.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+    <header class="bg-dark text-white text-center py-3 fixed-top">
+        <h1 class="mb-0">La Kieu Ngoc Thang</h1>
+    </header>
+    <main class="container-fluid custom-my-5">
+        <div class="row">
+            <aside class="col-md-3" id="sidebar" data-aos="fade-right">
+                <nav id="toc">
+                    <h4>Table of Contents</h4>
+                    <ol>
+                        <li>
+                            <a href="#section1">Vectors and Matrices</a>
+                            <ul>
+                                <li><a href="#section1.1">Vectors, Dot Product, Determinants, Cross Product</a></li>
+                                <li><a href="#section1.2">Matrices, Inverse Matrices, Square Systems, Equations of Planes, Parametric Equations for Lines and Curves</a></li>
+                                <li><a href="#section1.3">Velocity, Acceleration, Kepler's Second Law</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#section2">Partial Derivatives</a>
+                            <ul>
+                                <li><a href="#section2.1">Level Curves, Partial Derivatives, Tangent Plane Approximation</a></li>
+                                <li><a href="#section2.2">Max-Min Problems, Least Squares</a></li>
+                                <li><a href="#section2.3">Second Derivative Test, Boundaries and Infinity</a></li>
+                                <li><a href="#section2.4">Differentials, Chain Rule</a></li>
+                                <li><a href="#section2.5">Gradient, Directional Derivative, Tangent Plane</a></li>
+                                <li><a href="#section2.6">Lagrange Multipliers</a></li>
+                                <li><a href="#section2.7">Non-independent Variables</a></li>
+                                <li><a href="#section2.8">Partial Differential Equations</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#section3">Double Integrals and Line Integrals in the Plane</a>
+                            <ul>
+                                <li><a href="#section3.1">Double Integrals</a></li>
+                                <li><a href="#section3.2">Double Integrals in Polar Coordinates, Applications</a></li>
+                                <li><a href="#section3.3">Change of Variables</a></li>
+                                <li><a href="#section3.4">Vector Fields and Line Integrals in the Plane</a></li>
+                                <li><a href="#section3.5">Path Independence and Conservative Fields</a></li>
+                                <li><a href="#section3.6">Gradient Fields and Potential Functions</a></li>
+                                <li><a href="#section3.7">Green's Theorem</a></li>
+                                <li><a href="#section3.8">Flux, Normal Form of Green's Theorem</a></li>
+                                <li><a href="#section3.9">Simply Connected Regions</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#section4">Triple Integrals and Surface Integrals in 3-Space</a>
+                            <ul>
+                                <li><a href="#section4.1">Triple Integrals in Rectangular and Cylindrical Coordinates</a></li>
+                                <li><a href="#section4.2">Spherical Coordinates, Surface Area</a></li>
+                                <li><a href="#section4.3">Vector Fields in 3D, Surface Integrals and Flux</a></li>
+                                <li><a href="#section4.4">Divergence Theorem, Applications and Proof</a></li>
+                                <li><a href="#section4.5">Line Integrals in Space, Curl, Exactness and Potentials</a></li>
+                                <li><a href="#section4.6">Stokes' Theorem</a></li>
+                                <li><a href="#section4.7">Topological Considerations, Maxwell's Equations</a></li>
+                            </ul>
+                        </li>
+                    </ol>
+                </nav>
+            </aside>            
+            <section class="col-md-9" id="blog" data-aos="fade-up">
+                <div class="blog-container">
+                    <a href="../../index.html" class="btn btn-primary mb-4"><i class="fas fa-arrow-left"></i> Back</a>
+                    <h1 class="blog-title">Multivariable Calculus</h1>
+                    <p class="blog-date">Updated on: July 14, 2024</p>
+                    
+                    <h2 id="section1" class="blog-content-item">Vectors and Matrices</h2>
+                    <div class="mt-4" id="section1.1">
+                        <h3>Vectors, Dot Product, Determinants, and Cross Product</h3>
+                    </div>
+                    <div class="mt-4" id="section1.2">
+                        <h3>Matrices, Inverse Matrices, Square Systems, Equations of Planes, Parametric Equations for Lines and Curves</h3>
+                    </div>
+                    <div class="mt-4" id="section1.3">
+                        <h3>Velocity, Acceleration, Kepler's Second Law</h3>
+                    </div>
+                    <hr>
+                    <h2 id="section2" class="blog-content-item">Partial Derivatives</h2>
+                    <div class="mt-4" id="section2.1">
+                        <h3>Level Curves, Partial Derivatives, Tangent Plane Approximation</h3>
+                    </div>
+                    <div class="mt-4" id="section2.2">
+                        <h3>Max-Min Problems, Least Squares</h3>
+                    </div>
+                    <div class="mt-4" id="section2.3">
+                        <h3>Second Derivative Test, Boundaries and Infinity</h3>
+                    </div>
+                    <div class="mt-4" id="section2.4">
+                        <h3>Differentials, Chain Rule</h3>
+                    </div>
+                    <div class="mt-4" id="section2.5">
+                        <h3>Gradient, Directional Derivative, Tangent Plane</h3>
+                    </div>
+                    <div class="mt-4" id="section2.6">
+                        <h3>Lagrange Multipliers</h3>
+                    </div>
+                    <div class="mt-4" id="section2.7">
+                        <h3>Non-independent Variables</h3>
+                    </div>
+                    <div class="mt-4" id="section2.8">
+                        <h3>Partial Differential Equations</h3>
+                    </div>
+                    <hr>
+                    <h2 id="section3" class="blog-content-item">Double Integrals and Line Integrals in the Plane</h2>
+                    <div class="mt-4" id="section3.1">
+                        <h3>Double Integrals</h3>
+                    </div>
+                    <div class="mt-4" id="section3.2">
+                        <h3>Double Integrals in Polar Coordinates, Applications</h3>
+                    </div>
+                    <div class="mt-4" id="section3.3">
+                        <h3>Change of Variables</h3>
+                    </div>
+                    <div class="mt-4" id="section3.4">
+                        <h3>Vector Fields and Line Integrals in the Plane</h3>
+                    </div>
+                    <div class="mt-4" id="section3.5">
+                        <h3>Path Independence and Conservative Fields</h3>
+                    </div>
+                    <div class="mt-4" id="section3.6">
+                        <h3>Gradient Fields and Potential Functions</h3>
+                    </div>
+                    <div class="mt-4" id="section3.7">
+                        <h3>Green's Theorem</h3>
+                    </div>
+                    <div class="mt-4" id="section3.8">
+                        <h3>Flux, Normal Form of Green's Theorem</h3>
+                    </div>
+                    <div class="mt-4" id="section3.9">
+                        <h3>Simply Connected Regions</h3>
+                    </div>
+                    <hr>
+                    <h2 id="section4" class="blog-content-item">Triple Integrals and Surface Integrals in 3-Space</h2>
+                    <div class="mt-4" id="section4.1">
+                        <h3>Triple Integrals in Rectangular and Cylindrical Coordinates</h3>
+                    </div>
+                    <div class="mt-4" id="section4.2">
+                        <h3>Spherical Coordinates, Surface Area</h3>
+                    </div>
+                    <div class="mt-4" id="section4.3">
+                        <h3>Vector Fields in 3D, Surface Integrals and Flux</h3>
+                    </div>
+                    <div class="mt-4" id="section4.4">
+                        <h3>Divergence Theorem, Applications and Proof</h3>
+                    </div>
+                    <div class="mt-4" id="section4.5">
+                        <h3>Line Integrals in Space, Curl, Exactness and Potentials</h3>
+                    </div>
+                    <div class="mt-4" id="section4.6">
+                        <h3>Stokes' Theorem</h3>
+                    </div>
+                    <div class="mt-4" id="section4.7">
+                        <h3>Topological Considerations, Maxwell's Equations</h3>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="bg-dark text-white text-center py-3 fixed-bottom">
+        <p>&copy; 2024 La Kieu Ngoc Thang. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true
+        });
+    </script>
+</body>
+
+</html>

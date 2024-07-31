@@ -1,0 +1,130 @@
+{
+    "about": {
+        "content": "Hello! I'm La Kieu Ngoc Thang. Currently, I am a student at Hanoi University of Science and Technology, majoring in Multimedia Engineering. My specialization lies in Machine Learning, Computer Vision, and Image Processing.",
+        "image": "assets/images/about-me.png"
+    },
+    "education": {
+        "timeline": [
+            {
+                "degree": "B.S. in Multimedia Engineering",
+                "institution": "Hanoi University of Science and Technology",
+                "period": "2021 - Present",
+                "details": [
+                    "Specialization in Computer Vision and Image Processing.",
+                    "<b>CPA</b>: 3.81/4.0,  <b>TOEIC</b>: 865/990."
+                ]
+            }
+        ]
+    },
+    "experience": {
+        "timeline": [
+            {
+                "role": "AI Intern",
+                "organization": "Cinnamon AI",
+                "period": "2024 - Present",
+                "description": [
+                    "Mentee of Cinnamon AI Bootcamp 2024.",
+                    "Working on the topic: Dive into Generative Al on Cloud: Toward User-Centered Innovation."
+                ]
+            },
+            {
+                "role": "Research Assistant",
+                "organization": "Computer Vision Laboratory - International Research Institute MICA (HUST)",
+                "period": "2023 - Present",
+                "description": [
+                    "Focus on solving the problem of Lesion Segmentation on Medical Endoscopy Images using Language-Vision Models."
+                ]
+            }
+        ]
+    },
+    "research": {
+        "items": [
+            "Deep Generative Models",
+            "Convex Optimization",
+            "Image Generation"
+        ]
+    },
+    "projects": {
+        "carousel": [
+            {
+                "title": "Fourier-based Diffusion Model",
+                "description": "Use Fourier transform to separate data into high and low-frequency components, apply different diffusion methods, and then use inverse Fourier transform to reconstruct the processed data.",
+                "image": "assets/images/project-01.webp",
+                "github": "https://github.com/lakieungocthang/Fourier-Based-Diffusion-Model",
+                "link": "https://example.com/project1"
+            },
+            {
+                "title": "Adaptive Diffusion Model Using Learned Kernels",
+                "description": "Employ neural networks to learn adaptive diffusion kernels, adjusting diffusion coefficients per input signal, enabling the model to adapt to each data's specific characteristics.",
+                "image": "assets/images/project-02.webp",
+                "github": "https://github.com/user/repo2",
+                "link": "https://example.com/project2"
+            }
+        ]
+    },
+    "publications": {
+        "accordion": [
+            {
+                "title": "First Publication Title",
+                "details": "Detailed information about the publication goes here...",
+                "year": 2023,
+                "topic": "Machine Learning",
+                "author": "Author 1, Author 2",
+                "venue": "Conference Name 1",
+                "paperLink": "https://example.com/paper1",
+                "githubLink": "https://github.com/user/repo1"
+            },
+            {
+                "title": "Second Publication Title",
+                "details": "Detailed information about the publication goes here...",
+                "year": 2022,
+                "topic": "Computer Vision",
+                "author": "Author 3, Author 4",
+                "venue": "Conference Name 2",
+                "paperLink": "https://example.com/paper2",
+                "githubLink": "https://github.com/user/repo2"
+            },
+            {
+                "title": "Third Publication Title",
+                "details": "Detailed information about the publication goes here...",
+                "year": 2021,
+                "topic": "Machine Learning",
+                "author": "Author 5, Author 6",
+                "venue": "The 27th National Conference on Electronics, Communications and Information Technology (REV-ECIT 2023)",
+                "paperLink": "https://example.com/paper3",
+                "githubLink": "https://github.com/user/repo3"
+            }
+        ]
+    },
+    "blogs": {
+        "items": [
+            {
+                "title": "Multivariable Calculus",
+                "excerpt": "This blog will provide comprehensive knowledge on multivariable calculus, covering functions of several variables, partial derivatives, multiple integrals, and vector calculus.",
+                "image": "assets/images/blog-01.webp",
+                "link": "blogs/01/01.html"
+            },
+            {
+                "title": "Linear Algebra",
+                "excerpt": "This blog will provide comprehensive knowledge on linear algebra, covering vectors, matrices, basic operations, and solving linear equations.",
+                "image": "assets/images/blog-02.webp",
+                "link": "blogs/02/02.html"
+            },
+            {
+                "title": "Probability and Statistics",
+                "excerpt": "This blog will provide comprehensive knowledge on probability and statistics, covering probability theory, random variables, probability distributions, statistical inference, and hypothesis testing.",
+                "image": "assets/images/blog-03.webp",
+                "link": "blogs/03/03.html"
+            },
+            {
+                "title": "Convex Optimization",
+                "excerpt": "This blog will provide comprehensive knowledge on convex optimization, covering fundamental concepts of convex sets, convex functions, optimization problems, duality theory, and algorithmic techniques.",
+                "image": "assets/images/blog-04.webp",
+                "link": "blogs/04/04.html"
+            }
+        ]
+    },
+    "contact": {
+        "details": "You can reach me at: <a href='mailto:thang.lakieungoc@gmail.com'>thang.lakieungoc@gmail.com</a>"
+    }
+}
